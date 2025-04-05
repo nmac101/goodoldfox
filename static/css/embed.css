@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+#embed {
+  position: absolute;
+  top: -50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100vw !important;
+  height: 100vh !important;
+  border: none;
+
+  z-index: 999999;
+}
